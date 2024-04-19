@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
           children: <Widget>[
             CustomBar(back: (){Get.to(HomeScreen());}, not:(){Get.to(HomeScreen());}),
         SizedBox(height: Get.height*0.01,),
-        Center(child: Text("Schedule Feeder 001",style: TextStyle(
+        Center(child: Text("Schedule jhjhhj Feeder 001",style: TextStyle(
           color: Colors.black,
           fontSize: 30,
           fontWeight: FontWeight.w700
