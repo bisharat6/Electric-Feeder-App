@@ -50,7 +50,7 @@ class CustomBar extends StatelessWidget {
                         width: 2
                       )
                     ),
-                    child: Center(child: Text("The Tim Plus",style: TextStyle(
+                    child: Center(child: Text("The Timer Plus",style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,
                       fontWeight: FontWeight.w500,
