@@ -5,12 +5,10 @@ import 'package:electric_feeder/views/day_night.dart';
 import 'package:electric_feeder/views/feeder1_screen.dart';
 import 'package:electric_feeder/views/scheduled.dart';
 import 'package:electric_feeder/views/time_picker.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:get/get.dart';
-import 'package:mailer/mailer.dart';
-import 'package:mailer/smtp_server/gmail.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
