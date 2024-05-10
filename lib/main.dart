@@ -3,8 +3,12 @@ import 'package:electric_feeder/views/splash_screen.dart';
 import 'package:electric_feeder/views/time_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:firebase_core/firebase_core.dart';
+Future<void> main() async {
 
-void main() {
+   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
   runApp(const MyApp());
 }
 
